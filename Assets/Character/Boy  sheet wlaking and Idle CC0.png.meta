@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: 38a6f3cd55513445e8dbf3464d2c8ab8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 578
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b28306c33954219a0f56bc4855822b
+      internalID: -1962024673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 577
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72842466a42c84af1b06d098da414603
+      internalID: -420516239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 577
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2010cae88e341c7b71c57a7cca726e
+      internalID: 1723283923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 578
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e8b3fc90dd345c38e0f038fdddfb98
+      internalID: -66537996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 514
+        width: 38
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b678406580234863802cc5623751ba9
+      internalID: 197021365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 512
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4263213a9602440dfbee60cced7c64cf
+      internalID: 1831632560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 512
+        width: 40
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454a92ee43b354ce3a87c3fd8c242122
+      internalID: -1286516289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 514
+        width: 38
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab1f9da434b640ce81d9fca6d19af37
+      internalID: -173107651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 450
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397adb972ceda46fcb519e16ffaebb82
+      internalID: 662839126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 449
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720c4efc85ade4d7d9f325d9a22ba464
+      internalID: -652115144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 449
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d491ea7bd36f4e1e878a8e7fb7de261
+      internalID: 731593020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 450
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3ef6bf7617044959e46bed9e96233d
+      internalID: -1034297729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_12
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 232
+        width: 156
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83be18eeabcb348f5a28131c548c133a
+      internalID: 1485566230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 386
+        width: 40
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cc60cbb042b4b6eb14f7b7904bbb08
+      internalID: -86695760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_14
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 384
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498806accc42646ee983291fc571f37c
+      internalID: 26216674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_15
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 384
+        width: 40
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a50d71ebbe5146b9ab7b139f0391271
+      internalID: 1174449776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 386
+        width: 40
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3439091f759ed4d92b2f95b0a97836c0
+      internalID: -1164673856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 258
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c39dc54345e481a8de1a00a4d912cb
+      internalID: -1461877619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 257
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0539854226a42389b6689fcdc9de36
+      internalID: 215560392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_19
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 257
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2e7b63fcfaf434aa5cbb08bacf7d9f
+      internalID: -788827475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_20
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 258
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3490c3295ddea438083c4ccd8b7f4c52
+      internalID: 142144314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 194
+        width: 38
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117bb9fc5a0f7432591dc4405905a224
+      internalID: 723420348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 193
+        width: 39
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7ee9b23d52c4f2a83609f6fe64ae54
+      internalID: 1467478010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_23
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 193
+        width: 39
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6a4aaa864c44055a0e534bd5158986
+      internalID: 876582472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_24
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 194
+        width: 38
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf828b3bbf4448f6a97820a7a00fbb1
+      internalID: -914666633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 130
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9975e28d18d04d6d9a99ed5fc026453
+      internalID: -1702769041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_26
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 129
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f63e872083af47b0ad1d1def99cd07e
+      internalID: -1166812377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_27
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 129
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f221a22e6a4a41dd8516fe12828b3a8
+      internalID: 1789486424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_28
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 130
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b74fb819fc3b46e6b9315313a5104da
+      internalID: -1616159264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_29
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 66
+        width: 39
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ea9f251e257454493ce82112f3bff8
+      internalID: 20589033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_30
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 65
+        width: 41
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1151dd133834f447eaaff156f1ef934c
+      internalID: -491616297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_31
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 65
+        width: 41
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c0b8500abe54a2fa8bd622d1c46a0d
+      internalID: 1987830368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 66
+        width: 39
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12a35b86f4764e22a6a347675efe7a3
+      internalID: -1023227673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 52
+        width: 23
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3282d8bc32964d398f24bf280ea3474
+      internalID: 1033230381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_34
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 38
+        width: 43
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a447ec3a5d8f466aa30715ee17642ef
+      internalID: 803450153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_35
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 23
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd195215b0464565b8c027e23768764
+      internalID: 894063066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_36
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 23
+        width: 44
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309f2024d9fe54e5f9ae630956a65760
+      internalID: 744765548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_37
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 23
+        width: 27
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d1165a6005340f1a09df09141f71ad
+      internalID: -1500973554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boy  sheet wlaking and Idle CC0_38
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 24
+        width: 25
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb722ce52ee41401b90e48629c742be3
+      internalID: 1459708384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boy  sheet wlaking and Idle CC0_0: -1962024673
+      Boy  sheet wlaking and Idle CC0_1: -420516239
+      Boy  sheet wlaking and Idle CC0_10: 731593020
+      Boy  sheet wlaking and Idle CC0_11: -1034297729
+      Boy  sheet wlaking and Idle CC0_12: 1485566230
+      Boy  sheet wlaking and Idle CC0_13: -86695760
+      Boy  sheet wlaking and Idle CC0_14: 26216674
+      Boy  sheet wlaking and Idle CC0_15: 1174449776
+      Boy  sheet wlaking and Idle CC0_16: -1164673856
+      Boy  sheet wlaking and Idle CC0_17: -1461877619
+      Boy  sheet wlaking and Idle CC0_18: 215560392
+      Boy  sheet wlaking and Idle CC0_19: -788827475
+      Boy  sheet wlaking and Idle CC0_2: 1723283923
+      Boy  sheet wlaking and Idle CC0_20: 142144314
+      Boy  sheet wlaking and Idle CC0_21: 723420348
+      Boy  sheet wlaking and Idle CC0_22: 1467478010
+      Boy  sheet wlaking and Idle CC0_23: 876582472
+      Boy  sheet wlaking and Idle CC0_24: -914666633
+      Boy  sheet wlaking and Idle CC0_25: -1702769041
+      Boy  sheet wlaking and Idle CC0_26: -1166812377
+      Boy  sheet wlaking and Idle CC0_27: 1789486424
+      Boy  sheet wlaking and Idle CC0_28: -1616159264
+      Boy  sheet wlaking and Idle CC0_29: 20589033
+      Boy  sheet wlaking and Idle CC0_3: -66537996
+      Boy  sheet wlaking and Idle CC0_30: -491616297
+      Boy  sheet wlaking and Idle CC0_31: 1987830368
+      Boy  sheet wlaking and Idle CC0_32: -1023227673
+      Boy  sheet wlaking and Idle CC0_33: 1033230381
+      Boy  sheet wlaking and Idle CC0_34: 803450153
+      Boy  sheet wlaking and Idle CC0_35: 894063066
+      Boy  sheet wlaking and Idle CC0_36: 744765548
+      Boy  sheet wlaking and Idle CC0_37: -1500973554
+      Boy  sheet wlaking and Idle CC0_38: 1459708384
+      Boy  sheet wlaking and Idle CC0_4: 197021365
+      Boy  sheet wlaking and Idle CC0_5: 1831632560
+      Boy  sheet wlaking and Idle CC0_6: -1286516289
+      Boy  sheet wlaking and Idle CC0_7: -173107651
+      Boy  sheet wlaking and Idle CC0_8: 662839126
+      Boy  sheet wlaking and Idle CC0_9: -652115144
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
