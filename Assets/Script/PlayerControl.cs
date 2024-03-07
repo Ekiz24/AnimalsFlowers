@@ -11,7 +11,7 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        rigidbody2d = GetComponent < Rigidbody2D>();
+        rigidbody2d = GetComponent <Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -32,7 +32,7 @@ public class PlayerControl : MonoBehaviour
             animator.SetFloat("Vertical", vertical);
             animator.SetFloat("Horizontal", 0);
         }
-        //if players change stand to move
+        //the player changes stand to move
         Vector2 direction = new Vector2(horizontal, vertical);
         animator.SetFloat("Speed", direction.magnitude);
 

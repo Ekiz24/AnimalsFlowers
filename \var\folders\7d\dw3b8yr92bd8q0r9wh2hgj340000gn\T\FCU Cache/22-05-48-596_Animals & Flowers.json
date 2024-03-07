@@ -1,0 +1,1018 @@
+{
+    "document": {
+        "id": "0:0",
+        "name": "Document",
+        "type": "DOCUMENT",
+        "scrollBehavior": "SCROLLS",
+        "children": [
+            {
+                "id": "0:1",
+                "name": "UI - Menu",
+                "type": "CANVAS",
+                "scrollBehavior": "SCROLLS",
+                "children": [
+                    {
+                        "id": "6:2",
+                        "name": "Slide 16:9 - 1",
+                        "type": "FRAME",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -960.0,
+                            "y": -541.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -960.0,
+                            "y": -541.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": false,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 1.0,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    }
+                ],
+                "backgroundColor": {
+                    "r": 0.11764705926179886,
+                    "g": 0.11764705926179886,
+                    "b": 0.11764705926179886,
+                    "a": 1.0
+                },
+                "prototypeStartNodeID": null,
+                "flowStartingPoints": [
+                    
+                ],
+                "prototypeDevice": {
+                    "type": "PRESENTATION",
+                    "rotation": "NONE"
+                }
+            },
+            {
+                "id": "22:3880",
+                "name": "UI - Setting",
+                "type": "CANVAS",
+                "scrollBehavior": "SCROLLS",
+                "children": [
+                    {
+                        "id": "22:3881",
+                        "name": "Slide 16:9 - 1",
+                        "type": "FRAME",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -960.0,
+                            "y": -541.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -960.0,
+                            "y": -541.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 1.0,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "22:3887",
+                        "name": "scene-2 instructions",
+                        "type": "FRAME",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -537.0,
+                            "y": -411.0,
+                            "width": 1074.0,
+                            "height": 820.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -537.0,
+                            "y": -411.0,
+                            "width": 1074.0,
+                            "height": 820.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": false,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "visible": false,
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "visible": false,
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 1.0,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    }
+                ],
+                "backgroundColor": {
+                    "r": 0.11764705926179886,
+                    "g": 0.11764705926179886,
+                    "b": 0.11764705926179886,
+                    "a": 1.0
+                },
+                "prototypeStartNodeID": null,
+                "flowStartingPoints": [
+                    
+                ],
+                "prototypeDevice": {
+                    "type": "PRESENTATION",
+                    "rotation": "NONE"
+                }
+            },
+            {
+                "id": "6:11",
+                "name": "Scene 3 - Level 1",
+                "type": "CANVAS",
+                "scrollBehavior": "SCROLLS",
+                "children": [
+                    {
+                        "id": "13:3789",
+                        "name": "Background",
+                        "type": "FRAME",
+                        "locked": true,
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 1.0,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "11:761",
+                        "name": "Chances",
+                        "type": "FRAME",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            
+                        ],
+                        "fills": [
+                            
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 1.0,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "26:4450",
+                        "name": "Idle",
+                        "type": "FRAME",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -385.0,
+                            "y": -151.0,
+                            "width": 365.0,
+                            "height": 365.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -385.0,
+                            "y": -151.0,
+                            "width": 365.0,
+                            "height": 365.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            
+                        ],
+                        "fills": [
+                            
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 6.5178570747375488,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "13:3790",
+                        "name": "Button",
+                        "type": "GROUP",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": 400.0,
+                            "y": 848.0,
+                            "width": 443.0114746093750,
+                            "height": 93.753128051757812
+                        },
+                        "absoluteRenderBounds": {
+                            "x": 400.0,
+                            "y": 848.0,
+                            "width": 443.0114746093750,
+                            "height": 93.753128051757812
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": false,
+                        "background": [
+                            
+                        ],
+                        "fills": [
+                            
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "rectangleCornerRadii": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "cornerSmoothing": 0.0,
+                        "strokeWeight": 1.8251260519027710,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    }
+                ],
+                "backgroundColor": {
+                    "r": 0.11764705926179886,
+                    "g": 0.11764705926179886,
+                    "b": 0.11764705926179886,
+                    "a": 1.0
+                },
+                "prototypeStartNodeID": "11:761",
+                "flowStartingPoints": [
+                    {
+                        "nodeId": "11:761",
+                        "name": "Idle 1"
+                    }
+                ],
+                "prototypeDevice": {
+                    "type": "PRESENTATION",
+                    "rotation": "NONE"
+                }
+            },
+            {
+                "id": "26:7533",
+                "name": "Scene 4 - Level 2",
+                "type": "CANVAS",
+                "scrollBehavior": "SCROLLS",
+                "children": [
+                    {
+                        "id": "26:7534",
+                        "name": "Background",
+                        "type": "FRAME",
+                        "locked": true,
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 1.0,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "26:7535",
+                        "name": "Chances",
+                        "type": "FRAME",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            
+                        ],
+                        "fills": [
+                            
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 1.0,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "26:9367",
+                        "name": "Idle",
+                        "type": "FRAME",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -385.0,
+                            "y": -151.0,
+                            "width": 365.0,
+                            "height": 365.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -385.0,
+                            "y": -151.0,
+                            "width": 365.0,
+                            "height": 365.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            
+                        ],
+                        "fills": [
+                            
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 6.5178570747375488,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "26:9473",
+                        "name": "Button",
+                        "type": "GROUP",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": 400.0,
+                            "y": 848.0,
+                            "width": 443.0114746093750,
+                            "height": 93.753128051757812
+                        },
+                        "absoluteRenderBounds": {
+                            "x": 400.0,
+                            "y": 848.0,
+                            "width": 443.0114746093750,
+                            "height": 93.753128051757812
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": false,
+                        "background": [
+                            
+                        ],
+                        "fills": [
+                            
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "rectangleCornerRadii": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ],
+                        "cornerSmoothing": 0.0,
+                        "strokeWeight": 1.8251260519027710,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    }
+                ],
+                "backgroundColor": {
+                    "r": 0.11764705926179886,
+                    "g": 0.11764705926179886,
+                    "b": 0.11764705926179886,
+                    "a": 1.0
+                },
+                "prototypeStartNodeID": "26:7535",
+                "flowStartingPoints": [
+                    {
+                        "nodeId": "26:7535",
+                        "name": "Idle 1"
+                    }
+                ],
+                "prototypeDevice": {
+                    "type": "PRESENTATION",
+                    "rotation": "NONE"
+                }
+            },
+            {
+                "id": "26:4559",
+                "name": "Scene 4 - Winning",
+                "type": "CANVAS",
+                "scrollBehavior": "SCROLLS",
+                "children": [
+                    {
+                        "id": "26:4560",
+                        "name": "Background",
+                        "type": "FRAME",
+                        "locked": true,
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 1.0,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "26:4561",
+                        "name": "Chances",
+                        "type": "FRAME",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -338.0,
+                            "y": -24.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            
+                        ],
+                        "fills": [
+                            
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 1.0,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    },
+                    {
+                        "id": "26:6393",
+                        "name": "Idle",
+                        "type": "FRAME",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -385.0,
+                            "y": -151.0,
+                            "width": 365.0,
+                            "height": 365.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -385.0,
+                            "y": -151.0,
+                            "width": 365.0,
+                            "height": 365.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            
+                        ],
+                        "fills": [
+                            
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 6.5178570747375488,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 0.0,
+                            "g": 0.0,
+                            "b": 0.0,
+                            "a": 0.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    }
+                ],
+                "backgroundColor": {
+                    "r": 0.11764705926179886,
+                    "g": 0.11764705926179886,
+                    "b": 0.11764705926179886,
+                    "a": 1.0
+                },
+                "prototypeStartNodeID": "26:4561",
+                "flowStartingPoints": [
+                    {
+                        "nodeId": "26:4561",
+                        "name": "Idle 1"
+                    }
+                ],
+                "prototypeDevice": {
+                    "type": "PRESENTATION",
+                    "rotation": "NONE"
+                }
+            },
+            {
+                "id": "26:7532",
+                "name": "Game Objects",
+                "type": "CANVAS",
+                "scrollBehavior": "SCROLLS",
+                "children": [
+                    {
+                        "id": "26:9563",
+                        "name": "Slide 16:9 - 1",
+                        "type": "FRAME",
+                        "scrollBehavior": "SCROLLS",
+                        "blendMode": "PASS_THROUGH",
+                        "children": [
+                            
+                        ],
+                        "absoluteBoundingBox": {
+                            "x": -960.0,
+                            "y": -541.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "absoluteRenderBounds": {
+                            "x": -960.0,
+                            "y": -541.0,
+                            "width": 1920.0,
+                            "height": 1080.0
+                        },
+                        "constraints": {
+                            "vertical": "TOP",
+                            "horizontal": "LEFT"
+                        },
+                        "clipsContent": true,
+                        "background": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "fills": [
+                            {
+                                "blendMode": "NORMAL",
+                                "type": "SOLID",
+                                "color": {
+                                    "r": 1.0,
+                                    "g": 1.0,
+                                    "b": 1.0,
+                                    "a": 1.0
+                                }
+                            }
+                        ],
+                        "strokes": [
+                            
+                        ],
+                        "strokeWeight": 1.0,
+                        "strokeAlign": "INSIDE",
+                        "backgroundColor": {
+                            "r": 1.0,
+                            "g": 1.0,
+                            "b": 1.0,
+                            "a": 1.0
+                        },
+                        "effects": [
+                            
+                        ]
+                    }
+                ],
+                "backgroundColor": {
+                    "r": 0.11764705926179886,
+                    "g": 0.11764705926179886,
+                    "b": 0.11764705926179886,
+                    "a": 1.0
+                },
+                "prototypeStartNodeID": null,
+                "flowStartingPoints": [
+                    
+                ],
+                "prototypeDevice": {
+                    "type": "PRESENTATION",
+                    "rotation": "NONE"
+                }
+            }
+        ]
+    },
+    "components": {
+        
+    },
+    "componentSets": {
+        
+    },
+    "schemaVersion": 0,
+    "styles": {
+        
+    },
+    "name": "Animals & Flowers",
+    "lastModified": "2024-03-04T20:05:46Z",
+    "thumbnailUrl": "https://s3-alpha.figma.com/thumbnails/571460d5-163e-41bc-92a9-dda84da66c31?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWC6RLFRB6I%2F20240303%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240303T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f7597ea682daebcd6f381f73e2ce28fec4b30dd46ceec2fc011b5aefe693559f",
+    "version": "5274908044",
+    "role": "owner",
+    "editorType": "figma",
+    "linkAccess": "edit"
+}
