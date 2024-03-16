@@ -6,8 +6,8 @@ using System;
 [Serializable]
 public class Inventory
 {
-    string itemName;
-    string itemDescription;
-    int count;
-    InventoryItems item;
+  public  string itemName;
+  public  string itemDescription;
+  public  int count;
+  public  InventoryItems item;
 }
