@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class ItemsSpriteScriptableObject : ScriptableObject
 {
     public List<ItemSprites> items;
-   public Sprite GetItemSprite(InventoryItems item)
+   public Sprite GetItemSprite(InventoryItem item)
     {
         foreach (var currentItem in items)
         {
@@ -18,6 +18,6 @@ public class ItemsSpriteScriptableObject : ScriptableObject
 [Serializable]
 public class ItemSprites 
 {
-    public InventoryItems item;
+    public InventoryItem item;
     public Sprite itemsSprite;
 }

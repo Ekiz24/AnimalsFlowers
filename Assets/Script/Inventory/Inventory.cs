@@ -9,5 +9,5 @@ public class Inventory
   public  string itemName;
   public  string itemDescription;
   public  int count;
-  public  InventoryItems item;
+  public  InventoryItem item;
 }
