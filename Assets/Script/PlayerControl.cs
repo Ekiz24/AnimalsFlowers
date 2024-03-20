@@ -6,6 +6,8 @@ public class PlayerControl : MonoBehaviour
 {
     private Animator animator;
     private Rigidbody2D rigidbody2d;
+    [SerializeField]
+    private float speed = 10.9f;
 
     // Start is called before the first frame update
     void Start()
@@ -37,8 +39,8 @@ public class PlayerControl : MonoBehaviour
         animator.SetFloat("Speed", direction.magnitude);
 
         //move character to the direction
-        rigidbody2d.velocity = direction * 0.6f;
+        rigidbody2d.velocity = direction * speed;
 
-
+        transform.localPosition = new Vector3(Mathf.Clamp(transform.localPosition.x,-32f,32f), Mathf.Clamp(transform.localPosition.y, -32f, 32f), 0f);
     }
 }
