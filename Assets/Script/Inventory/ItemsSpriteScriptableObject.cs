@@ -20,4 +20,7 @@ public class ItemSprites
 {
     public InventoryItem item;
     public Sprite itemsSprite;
+    public string itemName;
+    public string itemDescription;
+    public int count;
 }

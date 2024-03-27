@@ -4,5 +4,9 @@ using UnityEngine;
 
 public class InventoryController : MonoBehaviour
 {
-    public List<Inventory> playerInventoryItems;
+    public Dictionary<InventoryItem, int> playerInventoryItems;
+    private void Awake()
+    {
+        playerInventoryItems = new Dictionary<InventoryItem, int>();
+    }
 }

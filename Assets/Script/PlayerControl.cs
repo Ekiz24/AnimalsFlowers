@@ -8,12 +8,13 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody2D rigidbody2d;
     [SerializeField]
     private float speed = 10.9f;
+    private InventoryController inventoryController;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
+        inventoryController = GetComponent<InventoryController>();
         animator = GetComponent<Animator>();
-        rigidbody2d = GetComponent <Rigidbody2D>();
+        rigidbody2d = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -43,4 +44,23 @@ public class PlayerControl : MonoBehaviour
 
         transform.localPosition = new Vector3(Mathf.Clamp(transform.localPosition.x,-32f,32f), Mathf.Clamp(transform.localPosition.y, -32f, 32f), 0f);
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.GetComponent<ItemHolder>() != null)
+        {
+            ItemHolder item = other.GetComponent<ItemHolder>();
+            Debug.Log(item.thisItem.item);
+            if (inventoryController.playerInventoryItems.ContainsKey(item.thisItem.item))
+            {
+                inventoryController.playerInventoryItems[item.thisItem.item] += 1;
+            }
+            else
+            {
+                inventoryController.playerInventoryItems.Add(item.thisItem.item, 1);
+            }
+            other.gameObject.SetActive(false);
+            Debug.Log(item.thisItem.item + " "+ inventoryController.playerInventoryItems[item.thisItem.item]);
+        }
+    }
+   
 }

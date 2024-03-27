@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
-[Serializable]
-public class Inventory
+public class ItemHolder : MonoBehaviour
 {
-  public  InventoryItem item;
+    public Inventory thisItem;
 }
