@@ -14,6 +14,15 @@ public class ItemsSpriteScriptableObject : ScriptableObject
         }
         return items[items.Count-1].itemsSprite ;
     }
+    public string GetItemDescription(InventoryItem item)
+    {
+        foreach (var currentItem in items)
+        {
+            if (currentItem.item == item)
+                return currentItem.itemDescription;
+        }
+        return items[items.Count - 1].itemDescription;
+    }
 }
 [Serializable]
 public class ItemSprites 

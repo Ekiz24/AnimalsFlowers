@@ -23,5 +23,6 @@ public class InventoryButton : MonoBehaviour
     {
         itemNameTxt.text = inventoryItem.item.ToString();
         itemImg.sprite = itemIconImg.sprite;
+        itemDescriptionTxt.text = itemsSpriteScriptableObject.GetItemDescription(inventoryItem.item);
     }
 }
