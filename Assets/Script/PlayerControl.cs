@@ -49,17 +49,16 @@ public class PlayerControl : MonoBehaviour
         if (other.GetComponent<ItemHolder>() != null)
         {
             ItemHolder item = other.GetComponent<ItemHolder>();
-            Debug.Log(item.thisItem.item);
             if (inventoryController.playerInventoryItems.ContainsKey(item.thisItem.item))
             {
-                inventoryController.playerInventoryItems[item.thisItem.item] += 1;
+                inventoryController.playerInventoryItems[item.thisItem.item] += PlayerPrefs.GetInt(item.thisItem.item.ToString(), 1);
             }
             else
             {
-                inventoryController.playerInventoryItems.Add(item.thisItem.item, 1);
+                inventoryController.playerInventoryItems.Add(item.thisItem.item, PlayerPrefs.GetInt(item.thisItem.item.ToString(),0)+1);
             }
             other.gameObject.SetActive(false);
-            Debug.Log(item.thisItem.item + " "+ inventoryController.playerInventoryItems[item.thisItem.item]);
+            PlayerPrefs.SetInt(item.thisItem.item.ToString(), inventoryController.playerInventoryItems[item.thisItem.item]);
         }
     }
    

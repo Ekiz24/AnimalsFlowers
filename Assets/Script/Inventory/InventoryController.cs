@@ -9,4 +9,8 @@ public class InventoryController : MonoBehaviour
     {
         playerInventoryItems = new Dictionary<InventoryItem, int>();
     }
+    public int GetCountOfItem(InventoryItem item)
+    {
+        return playerInventoryItems[item];
+    }
 }
