@@ -10,20 +10,18 @@ public class BGM : MonoBehaviour
 
     void Awake()
     {
-        switch (Music)
+        //these are for keeping background music playing even if we are testing other scences
+        //and assuring there is always only one background music throughout the play
+        if (Music == null) //checks whether there is already an existing music instance
         {
-            case null: //checks whether there is already an existing music instance
-                Music = this; //if not existing, it assigns the current instance to Music
-                break;
-
-            default: //if so, then destroy the current instance
-                Destroy(gameObject); 
-                break;
-            //these are for keeping background music playing even if we are testing other scences
-            //and assuring there is always only one background music throughout the play
+            Music = this; //if not existing (like in the 1st scene), it assigns the current instance to Music
+        }
+        else
+        {
+            Destroy(gameObject); //if so (like in the 2nd scene), then destroy the current music instance
         }
 
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject); //keep the only one music playing 
 
     }
 
