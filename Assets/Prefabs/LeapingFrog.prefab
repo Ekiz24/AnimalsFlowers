@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7691065784429509568}
   - component: {fileID: -6579111685713741848}
   m_Layer: 0
-  m_Name: CroakingToadIdleSide
+  m_Name: LeapingFrog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 21
-  m_Sprite: {fileID: -7528273785815624723, guid: 4fa9210515c7848099aa6bd3e03b35df, type: 3}
+  m_Sprite: {fileID: -6785876491275573431, guid: b57968b549f6949f88914edb466841a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 721799442810988351}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 5209696944196976401, guid: 4fa9210515c7848099aa6bd3e03b35df, type: 3}
+  m_Controller: {fileID: -8245310232171543862, guid: b57968b549f6949f88914edb466841a8, type: 3}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -169,7 +169,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisItem:
-    itemName: 
-    itemDescription: 
-    count: 0
     item: 3
