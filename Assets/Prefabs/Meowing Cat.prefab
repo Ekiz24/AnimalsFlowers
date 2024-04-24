@@ -13,9 +13,8 @@ GameObject:
   - component: {fileID: 3257531278676788932}
   - component: {fileID: 3257531278676788938}
   - component: {fileID: 3257531278676788939}
-  - component: {fileID: 8312136505549746166}
   m_Layer: 0
-  m_Name: Clucking Chicken
+  m_Name: Meowing Cat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 3257531278676788935}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 5696857294709305946, guid: 6a5cb0af4f3794c9e8c74e97f1f0417d, type: 3}
+  m_Controller: {fileID: 7938806328029379797, guid: 9865b662cd56e41ff8790db96a301d77, type: 3}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -156,20 +155,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8312136505549746166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3257531278676788935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9ae9544a9cbcbb4fb0c6b6e0016abd6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thisItem:
-    itemName: 
-    itemDescription: 
-    count: 0
-    item: 1

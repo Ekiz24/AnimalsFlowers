@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextLevel : MonoBehaviour
+public class EnterNextLevel : MonoBehaviour
 {
 
-    public void EnterNextLevel()
+    public void NextLevel()
     {
         SceneManager.LoadScene("Level2");
     }
