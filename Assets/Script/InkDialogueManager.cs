@@ -10,7 +10,7 @@ using System.IO;
 
 public class InkDialogueManager : MonoBehaviour
 {
-    public static event Action<Story> OnCreateStory;
+    //public static event Action<Story> OnCreateStory;
 
     //Ink file assest
     [SerializeField]
@@ -31,8 +31,6 @@ public class InkDialogueManager : MonoBehaviour
     private Transform choiceBox;
     private Transform choiceButton;
     private Transform characterBox;
-    private Transform LogBox;
-    private Transform LogText;
     private List<Transform> characterImages=new List<Transform>();
     private List<string> charactersPos=new List<string>();
 
@@ -44,7 +42,6 @@ public class InkDialogueManager : MonoBehaviour
     {
         player.SetActive(false);
         //Find the components
-        savePath = Application.dataPath + "/StreamingAssets/";
         canvas = transform.Find("UI Canvas");
         dialogueBox = canvas.Find("Dialogue Box");
         dialogueBoxText=dialogueBox.Find("Text");
@@ -53,13 +50,7 @@ public class InkDialogueManager : MonoBehaviour
         choiceBox = canvas.Find("Choice Box");  
         choiceButton=choiceBox.Find("Choice Button");
         characterBox = canvas.Find("Character Box");
-        LogBox = canvas.Find("Log Box");
 
-        
-        if (!Directory.Exists(savePath))
-        {
-            Directory.CreateDirectory(savePath);
-        }
 
         for (int i = 0; i < characterBox.childCount;i++)
         {
@@ -73,7 +64,7 @@ public class InkDialogueManager : MonoBehaviour
     void StartStory()
     {
         story = new Story(inkJSONAsset.text);
-        if (OnCreateStory != null) OnCreateStory(story);
+        //if (OnCreateStory != null) OnCreateStory(story);
         ContinueStory();
     }
 
@@ -84,14 +75,14 @@ public class InkDialogueManager : MonoBehaviour
         {
             choiceBox.gameObject.SetActive(false);
             string text = story.Continue();
-            // This removes any white space from the text.
+            // This removes any blank space from the text.
             text = text.Trim();
             //Find the tags of this line
             List<string> tags = story.currentTags;
             // Display the text on screen!
             PrintContent(text,tags);
         }
-        else if ((story.currentChoices.Count > 0))
+        else if (story.currentChoices.Count > 0)
         {
             choiceBox.gameObject.SetActive(true) ;
             if (story.currentChoices.Count > choiceBox.childCount)
@@ -126,7 +117,7 @@ public class InkDialogueManager : MonoBehaviour
     public void PrintContent(string content, List<string> tags)
     {
         /*Important rules
-         * 1. #CHAR:A:Happy 
+         * 1. #C:A:Happy 
          * Show Character A happy image
          * 2.#POS:0
          * 0-left,1-centre,2-right
@@ -196,7 +187,7 @@ public class InkDialogueManager : MonoBehaviour
    
 
     //choice
-    // after press choice
+    //after press choice
     void OnClickChoiceButton(Choice choice)
     {
         story.ChooseChoiceIndex(choice.index);
