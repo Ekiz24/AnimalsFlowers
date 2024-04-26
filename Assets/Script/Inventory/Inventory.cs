@@ -6,5 +6,17 @@ using System;
 [Serializable]
 public class Inventory
 {
-  public  InventoryItem item;
+    public InventoryItem item;
+    public int count;
+
+    public Inventory(InventoryItem item, int count)
+    {
+        this.item = item;
+        this.count = count;
+    }
+
+    public override string ToString()
+    {
+        return $"{item} are {count} ";
+    }
 }

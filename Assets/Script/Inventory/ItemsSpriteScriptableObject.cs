@@ -4,7 +4,7 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/ItemsSpriteScriptableObject", order = 1)]
 public class ItemsSpriteScriptableObject : ScriptableObject
 {
-    public List<ItemSprites> items;
+    public List<ItemData> items;
    public Sprite GetItemSprite(InventoryItem item)
     {
         foreach (var currentItem in items)
@@ -25,7 +25,7 @@ public class ItemsSpriteScriptableObject : ScriptableObject
     }
 }
 [Serializable]
-public class ItemSprites 
+public class ItemData 
 {
     public InventoryItem item;
     public Sprite itemsSprite;

@@ -1,6 +1,6 @@
 public enum InventoryItem
 {
-    none,
+    None,
     Chicken,
     Crab,
     Toad,

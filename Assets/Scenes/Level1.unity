@@ -1035,7 +1035,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 15
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1822705115}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -1325,7 +1326,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 10
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1393302144}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -2096,7 +2098,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 3
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1420315757}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -2386,7 +2389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 7
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 851223994}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -2541,7 +2545,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 21
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 622791260}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -3097,7 +3102,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 12
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 294150052}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -3522,7 +3528,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 19
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 460446012}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -3677,7 +3684,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 17
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1405360570}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -3698,6 +3706,7 @@ GameObject:
   - component: {fileID: 728551002}
   - component: {fileID: 728551001}
   - component: {fileID: 728551006}
+  - component: {fileID: 728551008}
   - component: {fileID: 728551007}
   m_Layer: 0
   m_Name: Player
@@ -3866,6 +3875,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 176cb6bc3a9cdb84fac05051d976b81b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &728551008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728551000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f32110a97af4764c9a8bccedc48fb7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &750177605
 GameObject:
   m_ObjectHideFlags: 0
@@ -4014,7 +4035,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 16
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1598822095}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -4169,7 +4191,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 22
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1667229466}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -5729,7 +5752,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 1
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 849619290}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -6057,7 +6081,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 4
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 446578583}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -6212,7 +6237,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 6
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1417710595}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -6456,7 +6482,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 8
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1417710595}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -7795,7 +7822,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 11
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1417710595}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -8569,7 +8597,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 20
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1417710595}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -8868,7 +8897,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 2
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1417710595}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -9023,7 +9053,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 18
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1417710595}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -9405,7 +9436,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 9
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1417710595}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -9695,7 +9727,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 14
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1417710595}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -10608,7 +10641,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 5
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1417710595}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
@@ -11335,7 +11369,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryItem:
-    item: 13
+    item: 0
+    count: 0
   itemCountTxt: {fileID: 1417710595}
   itemDescriptionTxt: {fileID: 1417710595}
   itemNameTxt: {fileID: 1256007513}
