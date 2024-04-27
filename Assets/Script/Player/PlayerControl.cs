@@ -44,22 +44,6 @@ public class PlayerControl : MonoBehaviour
 
         transform.localPosition = new Vector3(Mathf.Clamp(transform.localPosition.x,-32f,32f), Mathf.Clamp(transform.localPosition.y, -32f, 32f), 0f);
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.GetComponent<ItemHolder>() != null)
-        {
-            ItemHolder item = other.GetComponent<ItemHolder>();
-            if (inventoryController.playerInventoryItems.ContainsKey(item.thisItem.item))
-            {
-                inventoryController.playerInventoryItems[item.thisItem.item] += PlayerPrefs.GetInt(item.thisItem.item.ToString(), 1);
-            }
-            else
-            {
-                inventoryController.playerInventoryItems.Add(item.thisItem.item, PlayerPrefs.GetInt(item.thisItem.item.ToString(),0)+1);
-            }
-            other.gameObject.SetActive(false);
-            PlayerPrefs.SetInt(item.thisItem.item.ToString(), inventoryController.playerInventoryItems[item.thisItem.item]);
-        }
-    }
+   
    
 }

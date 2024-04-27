@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class InventoryController : MonoBehaviour
 {
-    public Dictionary<InventoryItem, int> playerInventoryItems;
-    private void Awake()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        playerInventoryItems = new Dictionary<InventoryItem, int>();
-    }
-    public int GetCountOfItem(InventoryItem item)
-    {
-        return playerInventoryItems[item];
+        ItemHolder item = other.GetComponent<ItemHolder>();
+        if (item != null)
+        {
+            JSONSaving.instance.AddItem(item.thisItem.item);
+            other.gameObject.SetActive(false);
+            
+        }
     }
 }

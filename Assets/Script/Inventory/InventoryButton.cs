@@ -32,6 +32,6 @@ public class InventoryButton : MonoBehaviour
     }
     private void GetItemCount()
     {
-        itemCountTxt.text = PlayerPrefs.GetInt(inventoryItem.item.ToString()).ToString();
+        itemCountTxt.text = JSONSaving.instance.GetCountOfItem(inventoryItem.item).ToString();
     }
 }
