@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartGameButton : MonoBehaviour
+public class StartGame : MonoBehaviour
 {
     // Start is called before the first frame update
 
 
-        public void StartGame()
+        public void StartGameButton()
         {
             SceneManager.LoadScene("Level1");
         }
