@@ -885,10 +885,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1647002153}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 573378684}
+        m_TargetAssemblyTypeName: StartGame, Assembly-CSharp
+        m_MethodName: StartGameButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1844,8 +1844,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1479052198}
-        m_TargetAssemblyTypeName: SettingClose, Assembly-CSharp
-        m_MethodName: CloseSetting
+        m_TargetAssemblyTypeName: CloseSetting, Assembly-CSharp
+        m_MethodName: CloseSettingButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2030,7 +2030,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1483029978}
-        m_TargetAssemblyTypeName: SettingButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: OpenSetting, Assembly-CSharp
         m_MethodName: SettingMenu
         m_Mode: 1
         m_Arguments:
