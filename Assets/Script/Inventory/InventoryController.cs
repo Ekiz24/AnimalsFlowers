@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class InventoryController : MonoBehaviour
 {
+    public LevelController levelController;
     private void OnTriggerEnter2D(Collider2D other)
     {
         ItemHolder item = other.GetComponent<ItemHolder>();
         if (item != null)
         {
-            JSONSaving.instance.AddItem(item.thisItem.item);
-            other.gameObject.SetActive(false);
+            if (levelController.currentItem.thisItem.item == item.thisItem.item)
+            {
+                JSONSaving.instance.AddItem(item.thisItem.item);
+                other.gameObject.SetActive(false);
+                levelController.SetCurrentItemRandomly();
+            }
             
         }
     }

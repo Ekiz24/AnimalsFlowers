@@ -17,7 +17,6 @@ public class InventoryButton : MonoBehaviour
     public void Awake()
     {
         itemIconImg = GetComponent<Image>();
-        itemCountTxt = transform.GetChild(0).GetComponent<TextMeshProUGUI>();
         itemIconImg.sprite = itemsSpriteScriptableObject.GetItemSprite(inventoryItem.item);
     }
     private void OnEnable()

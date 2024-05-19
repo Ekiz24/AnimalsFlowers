@@ -20,7 +20,9 @@ public class JSONSaving : Singleton<JSONSaving>
     }
     public int GetCountOfItem(InventoryItem item)
     {
-        return playerInventoryItems[item];
+        if(playerInventoryItems.ContainsKey(item))
+            return playerInventoryItems[item];
+        return 0;
     }
     private void CreatePlayerData()
     {
