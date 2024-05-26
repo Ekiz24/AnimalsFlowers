@@ -2,6 +2,8 @@ using System.IO;
 using UnityEngine;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using System;
+
 public class JSONSaving : Singleton<JSONSaving>
 {
     private Dictionary<InventoryItem, int> playerInventoryItems;
@@ -41,6 +43,15 @@ public class JSONSaving : Singleton<JSONSaving>
         }
         SaveData();
     }
+    public void Reset()
+    {
+        var valuesAsArray = Enum.GetValues(typeof(InventoryItem));
+        foreach (InventoryItem item in valuesAsArray)
+        {
+            playerInventoryItems[item] = 0;
+        }
+      //  SaveData();
+    }
     private void SetPaths()
     {
         path = Application.dataPath + Path.AltDirectorySeparatorChar + "SaveData.json";
@@ -53,7 +64,7 @@ public class JSONSaving : Singleton<JSONSaving>
         Debug.Log("Saving Data at " + savePath);
         string jsonOutput = JsonConvert.SerializeObject(playerInventoryItems);
         Debug.Log(jsonOutput);
-       using StreamWriter writer = new StreamWriter(savePath);
+        using StreamWriter writer = new StreamWriter(savePath);
         writer.Write(jsonOutput);
     }
 
@@ -63,6 +74,7 @@ public class JSONSaving : Singleton<JSONSaving>
         string json = reader.ReadToEnd();
         CreatePlayerData();
         playerInventoryItems = JsonConvert.DeserializeObject<Dictionary<InventoryItem, int>>(json);
+        Reset();
         Debug.Log(playerInventoryItems.Count);
     }
 }

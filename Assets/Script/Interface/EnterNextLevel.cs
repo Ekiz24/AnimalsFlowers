@@ -10,4 +10,8 @@ public class EnterNextLevel : MonoBehaviour
     {
         SceneManager.LoadScene("Level2");
     }
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }

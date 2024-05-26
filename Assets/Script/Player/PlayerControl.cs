@@ -8,6 +8,8 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody2D rigidbody2d;
     [SerializeField]
     private float speed = 10.9f;
+    [SerializeField]
+    private int lives = 3;
     private InventoryController inventoryController;
 
     private void Awake()
@@ -44,6 +46,17 @@ public class PlayerControl : MonoBehaviour
 
         transform.localPosition = new Vector3(Mathf.Clamp(transform.localPosition.x,-32f,32f), Mathf.Clamp(transform.localPosition.y, -32f, 32f), 0f);
     }
-   
+   public void PlayerDamage()
+    {
+        if(lives > 0)
+        {
+            lives--;
+        }
+
+    }
+    public int GetPlayerLives()
+    {
+        return lives;
+    }
    
 }

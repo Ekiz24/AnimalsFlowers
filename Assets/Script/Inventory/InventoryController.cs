@@ -5,6 +5,7 @@ using UnityEngine;
 public class InventoryController : MonoBehaviour
 {
     public LevelController levelController;
+    public PlayerControl player;
     private void OnTriggerEnter2D(Collider2D other)
     {
         ItemHolder item = other.GetComponent<ItemHolder>();
@@ -15,6 +16,11 @@ public class InventoryController : MonoBehaviour
                 JSONSaving.instance.AddItem(item.thisItem.item);
                 other.gameObject.SetActive(false);
                 levelController.SetCurrentItemRandomly();
+            }
+            else
+            {
+                player.PlayerDamage();
+                levelController.LevelFailed();
             }
             
         }
