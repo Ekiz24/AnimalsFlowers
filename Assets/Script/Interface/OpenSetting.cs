@@ -10,5 +10,4 @@ public class OpenSetting : MonoBehaviour
     {
         Setting.SetActive(true);
     }
-
 }

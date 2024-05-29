@@ -10266,7 +10266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  lives: 3
+  lives: 5
 --- !u!95 &1669437856
 Animator:
   serializedVersion: 5
@@ -12429,11 +12429,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4020793604352437698, guid: cd8c0dc7c0d744345b74090cf9fbe403, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.23
+      value: 1.53
       objectReference: {fileID: 0}
     - target: {fileID: 4020793604352437698, guid: cd8c0dc7c0d744345b74090cf9fbe403, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.94
+      value: -4.3
       objectReference: {fileID: 0}
     - target: {fileID: 4020793604352437698, guid: cd8c0dc7c0d744345b74090cf9fbe403, type: 3}
       propertyPath: m_LocalPosition.z

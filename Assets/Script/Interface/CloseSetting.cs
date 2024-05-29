@@ -6,7 +6,6 @@ public class CloseSetting : MonoBehaviour
 {
     public GameObject Close;
 
-
     public void CloseSettingButton()
     {
         Close.SetActive(false);

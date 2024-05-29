@@ -3760,7 +3760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  lives: 3
+  lives: 5
 --- !u!95 &728551003
 Animator:
   serializedVersion: 5

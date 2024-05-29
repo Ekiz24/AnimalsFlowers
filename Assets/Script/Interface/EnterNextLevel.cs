@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class EnterNextLevel : MonoBehaviour
 {
-
     public void NextLevel()
     {
         SceneManager.LoadScene("Level2");
