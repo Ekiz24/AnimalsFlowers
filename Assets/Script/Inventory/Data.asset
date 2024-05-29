@@ -16,137 +16,159 @@ MonoBehaviour:
   - item: 1
     itemsSprite: {fileID: 6570945058935979826, guid: 6a5cb0af4f3794c9e8c74e97f1f0417d, type: 3}
     itemName: 
-    itemDescription: chicken chicks
+    itemDescription: Chickens lay eggs and say "cluck, cluck" when they talk!
     count: 0
   - item: 2
     itemsSprite: {fileID: -8704530167317386321, guid: 8ed409d566eec4ee090bb4f3f40b3eb6, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Crabs have hard shells and walk sideways on the beach!
     count: 0
   - item: 3
     itemsSprite: {fileID: 5838583157779255770, guid: 4fa9210515c7848099aa6bd3e03b35df, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Toads have bumpy skin and love to hop around!
     count: 0
   - item: 4
     itemsSprite: {fileID: 6312103892168224249, guid: f897a18f78fd1469091f96d9b56391f4, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Monkeys are playful animals that love to swing from trees and
+      eat bananas!
     count: 0
   - item: 5
     itemsSprite: {fileID: 360578039782011024, guid: 235a117155b394833b65d0ba9be46ff1, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Dogs are loyal pets that love to bark and wag their tails when
+      they're happy!
     count: 0
   - item: 6
     itemsSprite: {fileID: 2314229650410607229, guid: 13b3f480f742b4d30a5073ca5d9fc40a, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Cows give us milk and make a "moo" sound in the fields!
     count: 0
   - item: 7
     itemsSprite: {fileID: 1160429148277119980, guid: 55f5978ed3cc144dc9b15dfe1a1a65d3, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Geese are birds that honk loudly and often fly in a V-shaped
+      formation!
     count: 0
   - item: 8
     itemsSprite: {fileID: -6944288816319059014, guid: 29bde03cba35b4a59b5a52fed362552f, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Gorillas are strong and gentle giants that live in forests and
+      often pound their chests!
     count: 0
   - item: 9
     itemsSprite: {fileID: 6013234909060250857, guid: b57968b549f6949f88914edb466841a8, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Frogs have smooth skin and make a "ribbit" sound when they croak!
     count: 0
   - item: 10
     itemsSprite: {fileID: 21300000, guid: ad10d2130c5304375b412cb028fa5863, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Moose are large animals with huge antlers, and they love to
+      munch on plants in the forest!
     count: 0
   - item: 11
     itemsSprite: {fileID: 1826832960849484683, guid: 9865b662cd56e41ff8790db96a301d77, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Cats are fluffy pets that purr when they're happy and love to
+      chase after toys!
     count: 0
   - item: 12
     itemsSprite: {fileID: -8172118972428339300, guid: f562bcdf6271e496e895b1c4b9a0cab5, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Goats have long horns and love to climb on rocks and nibble
+      on grass!
     count: 0
   - item: 13
     itemsSprite: {fileID: 5849271326955106194, guid: 27285fe7ecf184dbc81c8a4dce566306, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Sheep have soft wool and say "baa" when they talk, and they
+      like to follow each other in a line!
     count: 0
   - item: 14
     itemsSprite: {fileID: 21300000, guid: 2d93bc69c15994cb8be453ac6aab54ad, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Turtles have hard shells and move slowly, carrying their homes
+      on their backs!
     count: 0
   - item: 15
     itemsSprite: {fileID: -1331467432155298062, guid: 7e42231bb6a2243b3bba6a268fdd6758, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Foxes are clever animals with red fur and a bushy tail, and
+      they often hunt for food at night!
     count: 0
   - item: 16
     itemsSprite: {fileID: 5833027758116903483, guid: 2a2bb608ebbc84602b9381d140dae566, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Porcupines have prickly quills to protect themselves, and they
+      waddle around slowly!
     count: 0
   - item: 17
     itemsSprite: {fileID: 6231737327671462212, guid: 4f9dfbb80fcf7453083d1b4473d77187, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Skunks have black and white fur and spray a stinky liquid when
+      they feel scared or threatened!
     count: 0
   - item: 18
     itemsSprite: {fileID: -1739353015421765227, guid: 37bb823ac8088414c9663323be61303e, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Wolves are skilled hunters that live in packs and howl to communicate
+      with each other!
     count: 0
   - item: 19
     itemsSprite: {fileID: 21300000, guid: 4d59c11ee78aa433198d029908102c52, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Roses are a symbol of love and passion, with vibrant petals
+      that express deep emotions!
     count: 0
   - item: 20
     itemsSprite: {fileID: 21300000, guid: a9492c0fd1eea4392ad9d98f38ee2faa, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Sunflowers are tall plants with big, bright yellow flowers that
+      turn towards the sun during the day!
     count: 0
   - item: 21
     itemsSprite: {fileID: 21300000, guid: b0fa2564227c94d229e8455a32860fba, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Tulips are elegant flowers with smooth petals that come in various
+      colors, and they bloom in the springtime!
     count: 0
   - item: 22
     itemsSprite: {fileID: 21300000, guid: cf3a15b6e206543dd836b0803ec52cec, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Marigolds are cheerful flowers with vibrant orange and yellow
+      petals, and they're often used to decorate gardens and events!
     count: 0
   - item: 23
     itemsSprite: {fileID: 21300000, guid: 4d959d644b6dd406abbdd3fcd43855e6, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Jasmine flowers have a sweet fragrance and delicate white petals,
+      often used to make perfumes and teas!
     count: 0
   - item: 24
     itemsSprite: {fileID: 21300000, guid: 9d6902be0858b4891b72451d62449f25, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Daffodils are bright yellow flowers with trumpet-shaped blooms
+      that signal the arrival of spring!
     count: 0
   - item: 25
     itemsSprite: {fileID: 21300000, guid: 0d5de9897be8a470ab87055aec6ff5e8, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Orchids are exotic flowers with intricate shapes and vibrant
+      colors, often found in tropical regions and prized for their beauty!
     count: 0
   - item: 26
     itemsSprite: {fileID: 21300000, guid: d2f2b102f34d242468635ed45091a446, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Lilies are elegant flowers with graceful petals and a sweet
+      fragrance, symbolizing purity and renewal!
     count: 0
   - item: 27
     itemsSprite: {fileID: 21300000, guid: 1dfd633fd29ac45b69e7c4a10da5adf0, type: 3}
     itemName: 
-    itemDescription: 
+    itemDescription: Daisies are cheerful flowers with white petals and a yellow
+      center, and they often grow wild in fields and meadows!
     count: 0
   - item: 0
     itemsSprite: {fileID: 21300000, guid: ba381edcf039940088aecffde5b9d896, type: 3}
