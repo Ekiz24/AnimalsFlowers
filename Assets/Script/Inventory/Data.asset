@@ -170,8 +170,3 @@ MonoBehaviour:
     itemDescription: Daisies are cheerful flowers with white petals and a yellow
       center, and they often grow wild in fields and meadows!
     count: 0
-  - item: 0
-    itemsSprite: {fileID: 21300000, guid: ba381edcf039940088aecffde5b9d896, type: 3}
-    itemName: 
-    itemDescription: 
-    count: 0
